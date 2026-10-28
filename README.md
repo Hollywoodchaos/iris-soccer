@@ -114,9 +114,15 @@ The Free edition is a complete, ready-to-use card. **Iris Soccer Pro** turns it 
 | **7 languages** (PT, EN, ES, FR, DE, RU, ZH) | – | ✅ |
 | Extra leagues (Liga 2, League One…) | – | ✅ |
 
-<p align="center">
-  <img src="docs/pro-mobile.png" alt="Iris Soccer Pro on mobile" width="300">
-</p>
+<table align="center">
+  <tr>
+    <td align="center"><img src="docs/pro-mobile.png" alt="Matches with probable odds" width="260"><br><sub><b>Matches + probable odds</b></sub></td>
+    <td align="center"><img src="docs/pro-mobile2.png" alt="Live matches worldwide" width="260"><br><sub><b>Live matches worldwide</b></sub></td>
+  </tr>
+  <tr>
+    <td colspan="2" align="center"><img src="docs/pro-mobile3.png" alt="Live matches in landscape" width="520"><br><sub><b>Landscape view, filter live matches by country</b></sub></td>
+  </tr>
+</table>
 
 <p align="center">
   <a href="https://ko-fi.com/"><img src="https://img.shields.io/badge/Get%20Iris%20Soccer%20Pro-on%20Ko--fi-FF5E5B?logo=ko-fi&logoColor=white&style=for-the-badge" alt="Get Pro on Ko-fi"></a>
