@@ -125,10 +125,10 @@ The Free edition is a complete, ready-to-use card. **Iris Soccer Pro** turns it 
 </table>
 
 <p align="center">
-  <a href="https://ko-fi.com/"><img src="https://img.shields.io/badge/Get%20Iris%20Soccer%20Pro-on%20Ko--fi-FF5E5B?logo=ko-fi&logoColor=white&style=for-the-badge" alt="Get Pro on Ko-fi"></a>
+  <a href="https://ko-fi.com/s/8d8f68edca"><img src="https://img.shields.io/badge/Get%20Iris%20Soccer%20Pro-on%20Ko--fi-FF5E5B?logo=ko-fi&logoColor=white&style=for-the-badge" alt="Get Pro on Ko-fi"></a>
 </p>
 
-> The Pro link and details will be added here as soon as the shop is open.
+> **Launch offer:** Iris Soccer Pro is available at a special launch price on Ko-fi for a limited time. One payment, personal-use license, updates included.
 
 ---
 
