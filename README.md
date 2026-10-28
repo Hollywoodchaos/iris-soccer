@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="docs/banner.png" alt="Iris Soccer – Football dashboard for Home Assistant" width="100%">
+  <img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/banner.png" alt="Iris Soccer – Football dashboard for Home Assistant" width="100%">
 </p>
 
 <p align="center">
@@ -18,11 +18,11 @@
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="docs/desktop.png" alt="Desktop view" width="100%">
+  <img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/desktop.png" alt="Desktop view" width="100%">
 </p>
 
 <p align="center">
-  <img src="docs/mobile.png" alt="Mobile view" width="300">
+  <img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/mobile.png" alt="Mobile view" width="300">
 </p>
 
 ## ✨ What you get (Free)
@@ -92,7 +92,7 @@ refresh_minutes: 10
 The Free edition is a complete, ready-to-use card. **Iris Soccer Pro** turns it into a full football hub — and your support through Ko-fi keeps both editions alive.
 
 <p align="center">
-  <img src="docs/pro-desktop.png" alt="Iris Soccer Pro" width="100%">
+  <img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/pro-desktop.png" alt="Iris Soccer Pro" width="100%">
 </p>
 
 | | Free | Pro |
@@ -116,11 +116,11 @@ The Free edition is a complete, ready-to-use card. **Iris Soccer Pro** turns it 
 
 <table align="center">
   <tr>
-    <td align="center"><img src="docs/pro-mobile.png" alt="Matches with probable odds" width="260"><br><sub><b>Matches + probable odds</b></sub></td>
-    <td align="center"><img src="docs/pro-mobile2.png" alt="Live matches worldwide" width="260"><br><sub><b>Live matches worldwide</b></sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/pro-mobile.png" alt="Matches with probable odds" width="260"><br><sub><b>Matches + probable odds</b></sub></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/pro-mobile2.png" alt="Live matches worldwide" width="260"><br><sub><b>Live matches worldwide</b></sub></td>
   </tr>
   <tr>
-    <td colspan="2" align="center"><img src="docs/pro-mobile3.png" alt="Live matches in landscape" width="520"><br><sub><b>Landscape view, filter live matches by country</b></sub></td>
+    <td colspan="2" align="center"><img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/pro-mobile3.png" alt="Live matches in landscape" width="520"><br><sub><b>Landscape view, filter live matches by country</b></sub></td>
   </tr>
 </table>
 
