@@ -1,11 +1,3 @@
-
-
-https://github.com/user-attachments/assets/90bd3465-ffd5-4ea8-b2c0-fda1dcb12af1
-
-
-
-https://github.com/user-attachments/assets/b6c2941d-497c-4a29-8d9b-68782eacceca
-
 <p align="center">
   <img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/banner.png" alt="Iris Soccer – Football dashboard for Home Assistant" width="100%">
 </p>
@@ -20,6 +12,8 @@ https://github.com/user-attachments/assets/b6c2941d-497c-4a29-8d9b-68782eacceca
 <h3 align="center">⚽ Matches · 📊 Standings · 🔮 Statistical predictions — right inside your Home Assistant dashboard</h3>
 
 <p align="center">No API key. No account. No extra integration. Just add the card.</p>
+
+https://github.com/user-attachments/assets/90bd3465-ffd5-4ea8-b2c0-fda1dcb12af1
 
 ---
 
@@ -89,67 +83,4 @@ refresh_minutes: 10
 | sc | `sco.1` |
 | br | `bra.1` |
 | us | `usa.1` |
-| eu | `uefa.champions`, `uefa.europa`, `uefa.europa.conf` |
-
-</details>
-
----
-
-## 💎 Want more? Meet **Iris Soccer Pro**
-
-The Free edition is a complete, ready-to-use card. **Iris Soccer Pro** turns it into a full football hub — and your support through Ko-fi keeps both editions alive.
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/pro-desktop.png" alt="Iris Soccer Pro" width="100%">
-</p>
-
-| | Free | Pro |
-|---|:---:|:---:|
-| Overview, Matches, Standings, team form | ✅ | ✅ |
-| Statistical predictions (win/draw/loss + score) | ✅ | ✅ |
-| Country → Competition selector | ✅ | ✅ |
-| Responsive layout (phone / tablet / desktop) | ✅ | ✅ |
-| **Probable odds** (1 X 2 and Over/Under 2.5 goals) | – | ✅ |
-| **Live matches** worldwide with goal alerts | – | ✅ |
-| **Cups** (country/region → competition) | – | ✅ |
-| **My club**: profile, stadium, coach, position, fixtures | – | ✅ |
-| **Teams**: squads by position, photos and season stats | – | ✅ |
-| **Players**: top scorers, assists, yellow and red cards | – | ✅ |
-| **Transfers** market | – | ✅ |
-| **News** in your language | – | ✅ |
-| **TV guide**: channels for each match | – | ✅ |
-| **Match summary**: timeline, lineups, stats | – | ✅ |
-| **7 languages** (PT, EN, ES, FR, DE, RU, ZH) | – | ✅ |
-| Extra leagues (Liga 2, League One…) | – | ✅ |
-
-<table align="center">
-  <tr>
-    <td align="center"><img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/pro-mobile.png" alt="Matches with probable odds" width="260"><br><sub><b>Matches + probable odds</b></sub></td>
-    <td align="center"><img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/pro-mobile2.png" alt="Live matches worldwide" width="260"><br><sub><b>Live matches worldwide</b></sub></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/pro-mobile3.png" alt="Live matches in landscape" width="520"><br><sub><b>Landscape view, filter live matches by country</b></sub></td>
-  </tr>
-</table>
-
-<p align="center">
-  <a href="https://ko-fi.com/s/8d8f68edca"><img src="https://img.shields.io/badge/Get%20Iris%20Soccer%20Pro-on%20Ko--fi-FF5E5B?logo=ko-fi&logoColor=white&style=for-the-badge" alt="Get Pro on Ko-fi"></a>
-</p>
-
-> **Launch offer:** Iris Soccer Pro is available at a special launch price on Ko-fi for a limited time. One payment, personal-use license, updates included.
-
----
-
-## ℹ️ Data sources and disclaimer
-
-Data comes from ESPN's public, **unofficial** site API, requested directly from your browser. It may change or stop working at any time. This project is **not affiliated with, endorsed by or sponsored by ESPN**, any league or any club. Team names and logos belong to their respective owners and are shown only as provided by the API.
-
-Predictions are purely statistical, for entertainment, and come with **no guarantee**. This is not betting advice.
-
-## 🎨 About the logo
-
-The Iris logo (dark sphere with blue filaments) and the "Iris Soccer" name were created for this project with the help of AI tools. The MIT license covers the code; the name and logo are the project's branding, so please don't reuse them for your own products or to imply endorsement.
-
-## 📄 License
-
-MIT © Hollywoodchaos
+| eu | `uefa.champions`,
