@@ -1,3 +1,11 @@
+
+
+https://github.com/user-attachments/assets/90bd3465-ffd5-4ea8-b2c0-fda1dcb12af1
+
+
+
+https://github.com/user-attachments/assets/b6c2941d-497c-4a29-8d9b-68782eacceca
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Hollywoodchaos/iris-soccer/main/docs/banner.png" alt="Iris Soccer – Football dashboard for Home Assistant" width="100%">
 </p>
