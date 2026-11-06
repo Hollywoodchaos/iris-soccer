@@ -13,6 +13,13 @@
 
 <p align="center">No API key. No account. No extra integration. Just add the card.</p>
 
+https://github.com/user-attachments/assets/90bd3465-ffd5-4ea8-b2c0-fda1dcb12af1
+
+<p align="center">
+  <a href="https://youtu.be/Brx30c6o23s"><img src="https://img.youtube.com/vi/Brx30c6o23s/maxresdefault.jpg" alt="Watch the Iris Soccer presentation on YouTube" width="480"></a>
+  <br><sub>▶️ Watch the presentation on YouTube</sub>
+</p>
+
 ---
 
 ## 📸 Screenshots
