@@ -44,6 +44,32 @@ https://github.com/user-attachments/assets/90bd3465-ffd5-4ea8-b2c0-fda1dcb12af1
 | 📱 **Responsive** | Looks great on phone, tablet and desktop |
 | 🗣️ **Languages** | Portuguese and English |
 
+## ⚡ Quick start (2 minutes)
+
+1. Install the card (see [Installation](#-installation) below).
+2. Create a dashboard view with the **Panel (1 card)** layout.
+3. Add the card with the code in [Usage](#️-usage) and pick your country and league.
+4. Press **Ctrl+F5** once. That is it: no API key, no account, no extra integration.
+
+## 🧭 How to use the card
+
+| Tab | What you see |
+|---|---|
+| 🏠 **Overview** | The next match with its prediction, the latest result and the top of the table. A good first screen. |
+| 📅 **Matches** | Upcoming matches, or the latest results. Filter by team. Each match is a card, with 2–3 per row on large screens. |
+| 🏆 **Standings** | The full table, with the form of each team (its last games). |
+| 🔮 **Predictions** | A win / draw / loss bar and a predicted score for each match. |
+
+**Tips**
+- Use the **Panel (1 card)** layout so the card uses the full width of the screen.
+- Pick a different league by changing `country` and `league` in the card code.
+- On a wall tablet, the card refreshes itself every `refresh_minutes`.
+- You can add several cards in different views, one per league.
+
+## 🔮 How the predictions work
+
+Predictions come from a **Poisson model**. For each match it uses the league's average goals, the **attack and defence strength** of both teams, and their **recent form**, and turns that into a win / draw / loss probability and a most likely score. It is statistics, not magic: use it for fun and conversation.
+
 ## 🚀 Installation
 
 ### HACS (recommended)
@@ -140,6 +166,27 @@ The Free edition is a complete, ready-to-use card. **Iris Soccer Pro** turns it 
 
 ---
 
+## 🛠️ Troubleshooting
+
+- **The card does not appear / "Custom element doesn't exist"**: check that the file is added as a *JavaScript module* resource (Settings → Dashboards → ⋮ → Resources), then press **Ctrl+F5**. On the phone app: Settings → Companion app → Debugging → *Reset frontend cache*.
+- **The card is empty or says no data**: check that `country` and `league` match the table in [Usage](#️-usage). Out of season, a league can have no upcoming matches.
+- **Data stops updating**: the data source is ESPN's public API, which is unofficial and can change or fail for a while. Try again later.
+- **The card looks too narrow**: use the **Panel (1 card)** layout.
+
+## ❓ Questions
+
+**Do I need an API key or an account?** No.
+
+**Does it cost anything?** The Free edition is free and open source (MIT). **Pro** is a one-time purchase on Ko-fi.
+
+**Does it place real bets?** No. Nothing in this project involves real money. See [Responsible use](#-responsible-use).
+
+**Can I use my own team?** Yes, in **Matches** you can filter by team. In **Pro**, *My club* gives you the club profile, squad and fixtures.
+
+**Can Free users upgrade?** Yes. Pro is a separate card (`custom:iris-soccer-pro`): follow the `INSTALL.md` in the Pro download, then change the card type in your dashboard. The Free card can stay installed until you are happy with Pro.
+
+---
+
 ## ℹ️ Data sources and disclaimer
 
 Data comes from ESPN's public, **unofficial** site API, requested directly from your browser. It may change or stop working at any time. This project is **not affiliated with, endorsed by or sponsored by ESPN**, any league or any club. Team names and logos belong to their respective owners and are shown only as provided by the API.
@@ -155,7 +202,7 @@ Predictions, probable odds and the betting slip are purely statistical and **for
 
 ## 🎨 About the logo
 
-The Iris logo (dark sphere with blue filaments) and the "Iris Soccer" name were created for this project with the help of AI tools. The MIT license covers the code; the name and logo are the project's branding, so please don't reuse them for your own products or to imply endorsement.
+The Iris logo (dark sphere with blue filaments) and the "Iris Soccer" name were created for this project with the help of AI tools. The MIT license covers the code; the name and logo are the project's branding, so please don't reuse them for your own products or to imply endorsement. "Iris", "Iris Soccer" and the Iris eye logo are trademarks of Eletro Solar Basto.
 
 ## 📄 License
 
