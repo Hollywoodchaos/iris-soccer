@@ -2,7 +2,7 @@
  *  MIT License · https://github.com/Hollywoodchaos/iris-soccer
  *  Data: ESPN public site API (unofficial, no key needed). Not affiliated with ESPN.
  */
-const IS_VERSION = '1.0.0';
+const IS_VERSION = '1.0.3';
 const IS_API = 'https://site.api.espn.com/apis';
 
 const IS_LEAGUES = [
@@ -279,7 +279,7 @@ class IrisSoccer extends HTMLElement {
 
 const IS_CSS = `
 :host{display:block}
-ha-card{--ac:#e3b23c;--ac2:#f0c75a;--bg:#0c1220;--bx:#121a2c;--ln:rgba(255,255,255,.6);--tx:#e8eefc;--mu:#8a92a3;
+ha-card{container-type:inline-size;--ac:#e3b23c;--ac2:#f0c75a;--bg:#0c1220;--bx:#121a2c;--ln:rgba(255,255,255,.6);--tx:#e8eefc;--mu:#8a92a3;
   background:var(--bg);color:var(--tx);overflow:hidden;border-radius:16px;font-family:'Segoe UI',Roboto,system-ui,sans-serif}
 .top{background:linear-gradient(120deg,#8a6414,#e3b23c 62%,#f0c75a);padding:12px 16px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px;color:#1b1405}
 .brand{display:flex;align-items:center;gap:12px}
@@ -301,10 +301,10 @@ select{background:#0c1220;color:var(--tx);border:1px solid #2a3550;border-radius
 .tf{min-width:170px}
 .chip{background:#1a2336;color:var(--tx);border:0;border-radius:999px;padding:8px 14px;font:inherit;font-size:12.5px;font-weight:700;cursor:pointer}
 .chip.on{background:var(--ac);color:#1b1405}
-.games{display:grid;grid-template-columns:1fr;gap:10px}
+.games{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:10px;align-items:start}
 .gw{border:1px solid var(--ln);border-radius:14px;padding:10px 10px 12px;background:rgba(255,255,255,.025);min-width:0}
-.gr{display:grid;grid-template-columns:1fr auto 1fr;align-items:center;gap:8px;font-size:13px}
-.tm{display:flex;align-items:center;gap:6px;min-width:0}.tm.r{justify-content:flex-end;text-align:right}
+.gr{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:8px;font-size:13px}
+.tm{display:flex;align-items:center;gap:6px;min-width:0;overflow-wrap:anywhere}.tm.r{justify-content:flex-end;text-align:right}
 .tm img,td img{width:20px;height:20px;object-fit:contain;flex:none}
 .mid{display:flex;flex-direction:column;align-items:center;font-size:11px;color:var(--mu);white-space:nowrap}
 .sc{font-size:16px;color:var(--tx)}.sc.live{color:#ff5a5a}.lv{color:#ff5a5a;font-style:normal;font-weight:700}.dt{font-style:normal}
@@ -321,9 +321,7 @@ th.l,td.l{text-align:left}td.l{display:flex;align-items:center;gap:8px}
 .dot.W{background:#1f9d55}.dot.D{background:#6b7490}.dot.L{background:#d64545}
 .msg,.mut{color:var(--mu);text-align:center;padding:24px 8px}.full{grid-column:1/-1}
 .disc{margin:14px 0 0;font-size:10px;color:var(--mu);text-align:center}
-@media(min-width:1000px){.games{grid-template-columns:repeat(2,minmax(0,1fr));align-items:start}}
-@media(min-width:1500px){.games{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:780px){
+@container (max-width:780px){
   .lay{grid-template-columns:1fr;padding:10px}
   .sel{display:grid;grid-template-columns:1fr 1fr;width:100%}.sel select{min-width:0;width:100%}
   .side{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}
