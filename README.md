@@ -13,6 +13,8 @@
 
 <p align="center">No API key. No account. No extra integration. Just add the card.</p>
 
+<p align="center"><a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=Hollywoodchaos&repository=iris-soccer&category=plugin" target="_blank"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open in HACS"></a></p>
+
 https://github.com/user-attachments/assets/90bd3465-ffd5-4ea8-b2c0-fda1dcb12af1
 
 <p align="center">
@@ -74,9 +76,11 @@ Predictions come from a **Poisson model**. For each match it uses the league's a
 
 ### HACS (recommended)
 
-1. HACS → ⋮ → **Custom repositories**
-2. Repository: `https://github.com/Hollywoodchaos/iris-soccer` — Type: **Dashboard**
-3. Install **Iris Soccer** and hard-refresh your browser (Ctrl+F5).
+<a href="https://my.home-assistant.io/redirect/hacs_repository/?owner=Hollywoodchaos&repository=iris-soccer&category=plugin" target="_blank"><img src="https://my.home-assistant.io/badges/hacs_repository.svg" alt="Open in HACS"></a>
+
+Or search for **Iris Soccer** in HACS → Dashboard, install it and hard-refresh your browser (Ctrl+F5).
+
+<sub>Not listed yet in your HACS? Add it manually: HACS → ⋮ → **Custom repositories** → `https://github.com/Hollywoodchaos/iris-soccer` — Type: **Dashboard**.</sub>
 
 ### Manual
 
